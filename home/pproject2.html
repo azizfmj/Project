@@ -20,7 +20,7 @@ body {font-size:16px;}
   overflow: hidden;
  /* 16:9 aspect ratio */
  padding-top: 5%;
- position: relative;}
+ position: relative;}  
 </style>
 </head>
 <body>
@@ -32,6 +32,7 @@ body {font-size:16px;}
     <h3 class="w3-padding-64"><b><img src="k.jpg"><br>SCORPIO KWT</b></h3>
   </div>
   <div class="w3-bar-block">
+ <a href="#brief" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Brief</a>
    <a href="#home" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a> 
     <a href="#about us" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About us</a>
     <a href="#best seller" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Best seller</a>
@@ -55,8 +56,39 @@ body {font-size:16px;}
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 
+
 <!-- !PAGE CONTENT! -->
 <div class="w3-main" style="margin-left:340px;margin-right:40px">
+
+
+
+
+ <!-- Automatic Slideshow Images -->
+<div class="w3-container" id="brief" style="margin-top:75px">
+  <div class="mySlides w3-display-container w3-center">
+    <img src="ms.jpg" style="width:70%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      
+        
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="c6.jpg" style="width:60%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      
+        
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="mt.jpg" style="width:70%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      
+        
+    </div>
+  </div>
+
+
+
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="home">
@@ -172,9 +204,13 @@ body {font-size:16px;}
         <img src="h1.jpeg" alt="John" style="width:100%">
         <div class="w3-container">
           <h3>Black hoodie</h3>
+
           <p class="w3-opacity">Just eat it nike logo,pizza hoodie</p>
           <p>15KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
+
         </div>
+
       </div>
     </div>
     <div class="w3-col m4 w3-margin-bottom">
@@ -184,6 +220,7 @@ body {font-size:16px;}
           <h3>Black hoodie</h3>
           <p class="w3-opacity">Astronaut with a text i nead more space hoodie</p>
           <p>15KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
         </div>
       </div>
     </div>
@@ -194,6 +231,7 @@ body {font-size:16px;}
           <h3>Black hoodie</h3>
           <p class="w3-opacity">Black hoodie with text"never mind"</p>
           <p>15KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
         </div>
       </div>
     </div>
@@ -219,6 +257,7 @@ body {font-size:16px;}
           <h3>Black t-shirt</h3>
           <p class="w3-opacity">Samuel L Jackson t-shirt</p>
           <p>10KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
         </div>
       </div>
     </div>
@@ -229,6 +268,7 @@ body {font-size:16px;}
           <h3>Black t-shirt</h3>
           <p class="w3-opacity">Marilyn Monroe t-shirt</p>
           <p>10KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
         </div>
       </div>
     </div>
@@ -239,6 +279,7 @@ body {font-size:16px;}
           <h3>Black t-shirt</h3>
           <p class="w3-opacity">Central perk t-shirt</p>
           <p>10KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
         </div>
       </div>
     </div>
@@ -270,6 +311,7 @@ body {font-size:16px;}
           <h3>cap</h3>
           <p class="w3-opacity">Black cap with a text" Just eat it"pizza nike logor</p>
           <p>6KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
         </div>
       </div>
     </div>
@@ -280,6 +322,7 @@ body {font-size:16px;}
           <h3>cap</h3>
           <p class="w3-opacity">Black cap with drake logo</p>
           <p>6KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
         </div>
       </div>
     </div>
@@ -290,6 +333,7 @@ body {font-size:16px;}
           <h3>cap</h3>
           <p class="w3-opacity">Black cap with donut</p>
           <p>6KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
         </div>
       </div>
     </div>
@@ -316,11 +360,12 @@ body {font-size:16px;}
   <div class="w3-row-padding w3-grayscale">
     <div class="w3-col m4 w3-margin-bottom">
       <div class="w3-light-grey">
-        <img src="m1.jpg" alt="John" style="width:100%">
+        <img src="m1.jpg" alt="John" style="width:100%;height:290px">
         <div class="w3-container">
           <h3>mask</h3>
           <p class="w3-opacity">Black mask with a text "WILL ONLY REMOVE FOR COFFEE"</p>
           <p>5KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
         </div>
       </div>
     </div>
@@ -331,6 +376,7 @@ body {font-size:16px;}
           <h3>mask</h3>
           <p class="w3-opacity">Black mask with yellow covid-19 logo</p>
           <p>5KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
         </div>
       </div>
     </div>
@@ -341,6 +387,7 @@ body {font-size:16px;}
           <h3>mask</h3>
           <p class="w3-opacity">Black mask with green covid-19 logo</p>
           <p>5KD</p>
+<center><button style="width:60%" type="button" onclick="alert('This item was added to your cart')">Add to cart</button></center>
         </div>
       </div>
     </div>
@@ -395,8 +442,7 @@ Tel: +965 9890 2000<br>
 </div>
 
 <!-- W3.CSS Container -->
-<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Copyright:Abdulaziz Aljeeb</a></p></div>
-
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Copyright:Abdulaziz Aljeeb </p></div>
 
 <script>
 // Script to open and close sidebar
@@ -416,6 +462,28 @@ function onClick(element) {
   document.getElementById("modal01").style.display = "block";
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
+}
+
+
+
+
+
+
+
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000);    
 }
 </script>
 
